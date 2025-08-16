@@ -1,0 +1,13 @@
+[Unit]
+Description=Gunicorn instance to serve HR
+After=network.target
+
+[Service]
+User=root
+Group=www-data
+WorkingDirectory=/root/HR/HR
+Environment="PATH=/root/HR/ENV/bin"
+ExecStart=/root/HR/ENV/bin/gunicorn --workers 3 --bind unix:hr.sock -m 007 run:app
+
+[Install]
+WantedBy=multi-user.target
