@@ -32,5 +32,5 @@ Access the application at `http://localhost:5000` after starting the server.
 Set environment variables in `.env` file:
 - FLASK_APP=run.py
 - FLASK_ENV=development
-- SECRET_KEY=your-secret-key
+- SECRET_KEY="admin"
 
