@@ -1,7 +1,7 @@
-# Hafta - HR Management System
+# - HR Management System
 
 ## Overview
-Hafta is a comprehensive Human Resource Management System built with Python Flask for managing employee data, attendance, payroll, and performance tracking.
+hr is a comprehensive Human Resource Management System built with Python Flask for managing employee data, attendance, payroll, and performance tracking.
 
 ## Features
 - Employee management
